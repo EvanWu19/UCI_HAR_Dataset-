@@ -29,38 +29,38 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+*tBodyAcc-XYZ
+*tGravityAcc-XYZ
+*tBodyAccJerk-XYZ
+*tBodyGyro-XYZ
+*tBodyGyroJerk-XYZ
+*tBodyAccMag
+*tGravityAccMag
+*tBodyAccJerkMag
+*tBodyGyroMag
+*tBodyGyroJerkMag
+*fBodyAcc-XYZ
+*fBodyAccJerk-XYZ
+*fBodyGyro-XYZ
+*fBodyAccMag
+*fBodyAccJerkMag
+*fBodyGyroMag
+*fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
+*mean(): Mean value
+*std(): Standard deviation
 
 make totally of 66 features showing in the tidy_datfile.
 
 ## The meaning of Data in each features
-In the raw data we have multiple observations of the same subject and the same activity.
-In the tidy datafile we calculate the average value of each features we choosed for each subject and each activity.
+*In the raw data we have multiple observations of the same subject and the same activity.
+*In the tidy datafile we calculate the average value of each features we choosed for each subject and each activity.
 
 ## Transform and Clean Raw Data
 The detail steps are explained in Readme.md
-Creat a R script named run_analysis.R to
+*Creat a R script named run_analysis.R to
 * 1.Merges the training and the test sets to create one data set.
 * 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
 * 3.Uses descriptive activity names to name the activities in the data set
